@@ -151,6 +151,29 @@ IMPORTANT: Follow these naming rules strictly. Clarity is the top priority.
 - Commit messages: imperative mood, concise, explain the "why" not the "what"
 - Do not force-push to main
 
+## Fork — Versao do Yuri (iniciado 15 Abril 2026)
+
+### Proxy em uso
+Os owners (farzaa) autorizaram o uso do proxy deles durante desenvolvimento:
+`https://clicky-proxy.farza-0cb.workers.dev`
+
+### Bugs criticos a corrigir primeiro
+1. **Bundle ID**: `com.yourcompany.leanring-buddy` → mudar para bundle ID proprio
+2. **SUFeedURL**: aponta para `julianjear/makesomething-mac-app` (repo errado) → corrigir ou remover
+3. **Logs sensiveis**: transcricoes e tokens aparecem nos logs → remover
+
+### Melhorias planeadas (por prioridade)
+1. Painel de definicoes — atalho customizavel, microfone, escolha de voz
+2. Activacao por voz — "hey [nome]" em vez de so Ctrl+Option
+3. Historico persistente — guardar conversas em SQLite ou JSON
+4. Interrupcao de TTS — falar por cima para parar a resposta
+5. Autenticacao no proxy — token entre app e Worker
+
+### Nome do projecto
+Ainda por decidir. Yuri nao aprovou nenhuma sugestao ainda.
+
+---
+
 ## Self-Update Instructions
 
 <!-- AI agents: follow these instructions to keep this file accurate. -->
